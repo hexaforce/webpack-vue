@@ -47,7 +47,24 @@ warning nightwatch > proxy-agent > socks-proxy-agent > socks@1.1.10: If using 2.
 warning sinon > @sinonjs/formatio > samsam@1.3.0: This package has been deprecated in favour of @sinonjs/samsam
 warning webpack-bundle-analyzer > bfj-node4@5.3.1: Switch to the `bfj` package for fixes and new features!
 ```
-
+```
+warning autoprefixer> browserslist@2.11.3：Browserslist 2が他のツールで使用されているBrowserslist> 3.0の設定の読み取りに失敗することがありました。
+warning css-loader> cssnano> autoprefixer> browserslist@1.7.7：Browserslist 2は、他のツールで使用されているBrowserslist> 3.0設定の読み取りに失敗することがありました。
+warning css-loader> cssnano> postcss-merge-rules> browserslist@1.7.7：Browserslist 2は、他のツールで使用されているBrowserslist> 3.0設定の読み取りに失敗することがありました。
+warning css-loader> cssnano> postcss-merge-rules> caniuse-api> browserslist@1.7.7：Browserslist 2は、他のツールで使用されているBrowserslist> 3.0設定の読み取りに失敗することがありました。
+warning css-loader> cssnano> postcss-merge-rules> postcss-selector-parser> flatten@1.0.2：このモジュールはかなり前に書いたものです。他のものを使うべきです。
+警告eslint> file-entry-cache>フラットキャッシュ> circular-json@0.3.3：CircularJSONはメンテナンス中のみで、flattedはその後継です。
+warning extract-text-webpack-plugin@3.0.2：非推奨です。 https://github.com/webpack-contrib/mini-css-extract-pluginを使用してください
+warning karma> socket.io> socket.io-parser> json3@3.3.2：JSON 3の代わりにネイティブのJSONオブジェクトを使用してください
+warning karma-coverage> istanbul@0.4.5：このモジュールはもうメンテナンスされていません。代わりにこれを試してください：
+  npm私nyc
+他の選択肢についてはhttps://istanbul.js.org/integrationsをご覧ください。
+warning mocha> json3@3.3.2：JSON 3の代わりにネイティブのJSONオブジェクトを使ってください
+warning nightwatch> mocha-nightwatch> json3@3.3.2：JSON 3の代わりにネイティブのJSONオブジェクトを使ってください
+warning nightwatch> proxy-agent> socks-proxy-agent> socks@1.1.10：2.xブランチを使用している場合、ソケットデータフローに関する深刻なバグおよび2.1で発生したインポートの問題を回避するために少なくとも2.1.6にアップグレードしてください.0
+warning sinon> @ sinonjs / formatio> samsam@1.3.0：このパッケージは@ sinonjs / samsamを支持して推奨されていません。
+警告webpack-bundle-analyzer> bfj-node4@5.3.1：修正と新機能を得るために `bfj`パッケージに切り替えてください！
+```
 ```
 Running eslint --fix to comply with chosen preset rules...
 ```
