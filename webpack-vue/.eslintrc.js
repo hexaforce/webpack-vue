@@ -3,10 +3,12 @@
 module.exports = {
   root: true,
   parserOptions: {
+    ecmaVersion: 2018,
     parser: 'babel-eslint'
   },
   env: {
     browser: true,
+    es6: true
   },
   extends: [
     // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
